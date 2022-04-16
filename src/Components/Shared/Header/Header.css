@@ -1,0 +1,12 @@
+.collapse-wrap{
+    margin-left: 5rem;
+}
+.collapse-wrap a{
+    color: #000000;
+    font-size: 16px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.collapse-wrap a:hover{
+   color: royalblue;
+}
