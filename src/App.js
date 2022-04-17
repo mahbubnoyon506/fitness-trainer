@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/Pages/Home/Home';
 import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
+import NotFound from './Components/Shared/NotFound/NotFound';
 import Checkout from './Components/User/Checkout/Checkout';
 import Login from './Components/User/Login/Login';
 import SignUp from './Components/User/SignUp/SignUp';
@@ -22,6 +23,7 @@ function App() {
         }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

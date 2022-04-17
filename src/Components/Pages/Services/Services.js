@@ -6,7 +6,7 @@ import './Services.css'
 const Services = () => {
     const [services] = useServices();
     return (
-        <div>
+        <div className='ms-5 mt-5'>
             <div className='ms-5'>
                 <div style={{ height: '2px', width: '50px' }} className='bg-dark mb-4 ms-4'></div>
                 <h2 className='my-0 ms-4 fw-bolder'>Services <span className='text-danger'>I Provide</span></h2>

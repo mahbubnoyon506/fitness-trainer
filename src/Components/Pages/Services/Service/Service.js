@@ -15,7 +15,7 @@ const Service = ({service}) => {
             <h3>{name}</h3>
             <h5>Price: $ <span className='text-danger'>{price}</span></h5>
             <p>{description.slice(0, 100) + `...`}</p>
-            <Button variant='outline-dark' onClick={navigateCheckout}>Checkout</Button>
+            <Button variant='outline-danger' onClick={navigateCheckout}>Checkout</Button>
         </div>
     );
 };

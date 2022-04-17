@@ -1,23 +1,23 @@
+
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import trainer from '../../images/trainer.jpg'
+import './About.css'
 
 const About = () => {
     return (
-        <div className='m-5'>
-            <div className="content-wrap row g-4 mx-3">
-            <div style={{ height: '2px', width: '50px' }} className='bg-dark mb-4 ms-4'></div>
-            <h2 className='m-0 fw-bolder ms-4'>Who is <span className='text-danger d-block'>Louise?</span></h2>
-                <div className="content col-md-4 ">
-                    <p>
-                        Louise Hazel is an Olympian, fitness expert, celebrity trainer, educator and creator of SLAY a female fitness community. <br /> <br />
-
-                        A gold medallist in the seven-event discipline the heptathlon, Louise launched her very own female-first gym in the heart of Hollywood in 2019 called SLAY. With 15 years of elite training under her belt Louise helps thousands of people all over the world with her online training, advice and guidance. <br /> <br />
-
-                        Her clients include directors, producers, celebrities, entrepreneurs, athletes, influencers and thought-leaders.</p>
-                        <Button variant='outline-dark' >Show More</Button>
-                </div>
-                <img className='col-md-8' src={trainer} alt="" />
+        <div className='row'>
+            <div className="content col-md-5">
+                <div style={{ height: '2px', width: '50px' }} className='bg-dark mb-4 '></div>
+                <h2 className='my-0 fw-bolder'>Who is <span className='text-danger'>David?</span></h2>
+                <p className='mt-5'>David Louise is an Olympian, fitness expert, celebrity trainer, educator and creator of SLAY a male fitness community. <br /> <br />
+                A gold medallist in the seven-event discipline the heptathlon, David launched his very own male-first gym in the heart of Hollywood in 2019 called SLAY. With 15 years of elite training under his belt Davis helps thousands of people all over the world with his online training, advice and guidance. <br /> <br />
+                His clients include directors, producers, celebrities, entrepreneurs, athletes, influencers and thought-leaders.</p>
+                <Button variant='outline-danger my-3'>Show more</Button>
+                
+            </div>
+            <div className="about-image col-md-7" style={{
+                backgroundImage: `url("https://i.ibb.co/4Z3wVMV/banner2.jpg")`, height: '100vh'
+            }}>
             </div>
         </div>
     );
