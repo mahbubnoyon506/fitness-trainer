@@ -5,6 +5,13 @@
     padding: 10px 5px;
     border-radius: 5px;
     border: 1px solid #000;
+    background-color: transparent;
+}
+.form-wrap input:focus{
+  outline: none;
+}
+.form-wrap input::placeholder{
+  color: #000;
 }
 .social-authentication img{
    width: 40px;
