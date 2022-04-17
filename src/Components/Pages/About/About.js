@@ -16,7 +16,7 @@ const About = () => {
                 
             </div>
             <div className="about-image col-md-7" style={{
-                backgroundImage: `url("https://i.ibb.co/4Z3wVMV/banner2.jpg")`, height: '100vh'
+                backgroundImage: `url("https://i.ibb.co/L82f7mt/trainer2.jpg")`, height: '100vh', backgroundRepeat:'no-repeat', backgroundPosition:'', backgroundAttachment:'fixed'
             }}>
             </div>
         </div>

@@ -8,10 +8,10 @@
     text-decoration: none;
 }
 .collapse-wrap a:hover{
-   color: royalblue;
+   color: #DC3545;
 }
 .active{
-    color: royalblue;
+    color: #DC3545;
 }
 .in-active{
     color: #000000;    

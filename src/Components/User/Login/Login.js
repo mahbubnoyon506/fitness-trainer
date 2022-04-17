@@ -54,7 +54,11 @@ const Login = () => {
         );
       }
     return (
-        <div className=' w-25 mx-auto'>
+        <div className='row' >
+          <div className='col-md-7'>
+
+          </div>
+          <div className='col-md-5 px-5'>
             <form onSubmit={handleLogin} className="form-wrap">
                 <input type="email" name="email" id="email" placeholder='Type your email *' required />
                 <input type="password" name="pasword" id="password" placeholder='Type password' required />
@@ -68,6 +72,8 @@ const Login = () => {
                 <button className='text-dark border-0 bg-transparent' onClick={() => signInWithGithub()}><img className='img-fluid' src={github} alt="" /></button>
             </div>          
         </div>
+        </div>
+
     );
 };
 
