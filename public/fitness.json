@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "625bbae7dd4714edc29724c2",
+    "picture": "https://i.ibb.co/wSWMp5f/service1.jpg",
+    "price": 259,
+    "name": "General Fitness Training",
+    "description": "Qui dolor amet nisi aliqua aliqua ex enim ad pariatur consequat est. Commodo cupidatat officia magna ex elit pariatur culpa et anim. Velit ut quis officia elit dolor nisi consequat. Velit dolore officia sint occaecat cupidatat anim amet laboris dolore officia ipsum velit eu. Nulla dolor est elit enim officia nisi magna. Adipisicing nostrud sit sunt laboris ut eu do id ipsum cupidatat. Nisi consequat culpa esse culpa eiusmod Lorem proident culpa ullamco deserunt sint.\r\n"
+  },
+  {
+    "_id": "625bbae793d05ba1921cb576",
+    "picture": "https://i.ibb.co/THwJDgM/service6.jpg",
+    "price": 244,
+    "name": "Weightloss Training",
+    "description": "Aute officia reprehenderit fugiat amet commodo consectetur deserunt excepteur irure sit nostrud ipsum. Ut ad adipisicing in pariatur duis ea. Do voluptate ex dolor et. Sunt duis aliqua enim adipisicing consectetur mollit. Veniam dolore nostrud est ullamco ullamco aute nulla non ut ut.\r\n"
+  },
+  {
+    "_id": "625bbae70ad86f4863ec97f5",
+    "picture": "https://i.ibb.co/LnzyckR/service5.jpg",
+    "price": 383,
+    "name": "Olympic Training Camp",
+    "description": "Ex voluptate aute id laboris eu do cillum aliqua magna sunt proident consequat sint anim. In deserunt reprehenderit excepteur velit cillum. Cupidatat veniam anim consequat sit Lorem pariatur. Irure reprehenderit aliquip reprehenderit eu dolor proident duis duis eu ex.\r\n"
+  }
+]

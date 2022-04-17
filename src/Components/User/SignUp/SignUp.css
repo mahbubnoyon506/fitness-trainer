@@ -1,3 +1,15 @@
+.form-wrap input:not([type=checkbox]){
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.social-authentication img{
+   width: 40px;
+}
+
 .form-or{
     display: flex;
     flex-direction: row;
