@@ -14,7 +14,7 @@ const Header = () => {
     }
     return (
         <div>
-            <Navbar sticky='top' collapseOnSelect expand="lg" bg="light" variant="dark">
+            <Navbar sticky='top' collapseOnSelect expand="lg" bg="transparent" variant="dark">
                 <Container>
                     <div className=''>
                         <Navbar.Brand className='text-dark' href="#home">David Louis</Navbar.Brand>

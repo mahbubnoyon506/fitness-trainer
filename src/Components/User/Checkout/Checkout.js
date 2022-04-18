@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button, Col, Form, InputGroup, Row } from 'react-bootstrap';
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 
 
 const Checkout = () => {
