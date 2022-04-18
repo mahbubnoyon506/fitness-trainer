@@ -56,7 +56,7 @@ const Login = () => {
   }
   if (user || userGoogle || userGithub) {
     return (
-      navigateToHome('/checkout')
+      navigateToHome('/')
     );
   }
   return (

@@ -14,9 +14,12 @@ const Contact = () => {
                 <p className='pt-3'>6201 Hollywood Blvd <br />
                     Los Angeles, CA. 90028 <br />
                     Tel: 323-798-4268</p>
-                <button className='btn btn-text'>info@davidlouise.com</button>
-                <Link to='/#'><i class="fa-brands fa-facebook"></i></Link>
-                <div className="social">
+                <Link to='#' className='text-decoration-none text-dark'>info@davidlouise.com</Link>             
+                <div className="social mt-2">
+                    <Link to='#'><img src="https://i.ibb.co/XtJ50M5/facebook-icon.png" alt="" /></Link>
+                    <Link to='#'><img src="https://i.ibb.co/cNZGpxn/youtube.png" alt="" /></Link>
+                    <Link to='#'><img src="https://i.ibb.co/Yh8vBRx/twitter.png" alt="" /></Link>
+                    <Link to='#'><img src="https://i.ibb.co/NVghXRc/instagram.png" alt="" /></Link>   
                 </div>
 
             </div>
