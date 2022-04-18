@@ -3,7 +3,7 @@ import { signOut } from 'firebase/auth';
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Header.css'
 
@@ -25,7 +25,7 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav" className='collapse-wrap'>
                         <Nav className="me-auto">
                             <NavLink className={({ isActive }) => isActive ? "active" : "in-active"} to='/'>Home</NavLink>
-                            <NavLink className={({ isActive }) => isActive ? "active" : "in-active"} to='/about'>About</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? "active" : "in-active"} to='/aboutme'>About</NavLink>
                             <NavLink className={({ isActive }) => isActive ? "active" : "in-active"} to='/services'>Services</NavLink>
                             <NavLink className={({ isActive }) => isActive ? "active" : "in-active"} to='/blogs'>Blogs</NavLink>
                         </Nav>

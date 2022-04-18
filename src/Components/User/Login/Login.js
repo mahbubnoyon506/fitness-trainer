@@ -21,8 +21,8 @@ const Login = () => {
   ] = useSignInWithEmailAndPassword(auth);
 
     //   Google and Github authentication
-    const [signInWithGoogle, user1] = useSignInWithGoogle(auth);
-    const [signInWithGithub, user2] = useSignInWithGithub(auth);
+    const [signInWithGoogle, userGoogle] = useSignInWithGoogle(auth);
+    const [signInWithGithub, userGithub] = useSignInWithGithub(auth);
     
   // password reset
     const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
@@ -54,19 +54,20 @@ const Login = () => {
   if (loading) {
     return <Spiner></Spiner>;
   }
-  if (user || user1 || user2) {
+  if (user || userGoogle || userGithub) {
     return (
-      navigateToHome('/')
+      navigateToHome('/checkout')
     );
   }
   return (
-    <div className='d-md-flex justify-content-around' style={{
+    <div className='row g-5' style={{
       backgroundImage: `url("https://i.ibb.co/WvK4BsY/login-signup.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundAttachment: 'fixed'
     }}>
-      <div>
+      <div className='col-md-7'>
       </div>
-      <div className='shadow-lg bg-transparent rounded w-25 p-4'>
-          <form onSubmit={handleLogin} className="form-wrap">
+      <div className='col-md-5 shadow-lg bg-transparent rounded'>
+        <div className='m-5'>
+        <form onSubmit={handleLogin} className="form-wrap">
             <input onBlur={(e) => setEmail(e.target.value)} type="email" name="email" id="email" placeholder='Type your email *' required />
             <input type="password" name="pasword" id="password" placeholder='Type password' required />
             <input type="submit" value="Login" />
@@ -83,6 +84,9 @@ const Login = () => {
             <button className='text-dark border-0 bg-transparent' onClick={() => signInWithGithub()}><img className='img-fluid' src={github} alt="" /></button>
             <ToastContainer />
           </div>
+        </div>
+
+
       </div>
     </div>
 
